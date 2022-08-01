@@ -1,0 +1,268 @@
+@font-face {
+  font-family: bold;
+  src: url("../fonts/Cairo-Bold.ttf");
+}
+@font-face {
+  font-family: regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: medium;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(217, 217, 217);
+  text-align: center;
+}
+.nav-item {
+  padding: 10px 20px;
+  font-family: regular;
+  font-size: 15px;
+}
+.nav-item:hover {
+  background-color: rgb(174, 172, 172);
+  padding: 8px 80px;
+}
+.middle-content {
+  padding: 50px 100px 20px 100px;
+}
+.head-title {
+  font-family: medium;
+  font-size: 30px;
+  padding: 10px 0px 10px 90px;
+}
+.css-template {
+  font-family: regular;
+  font-size: 15px;
+  padding: 10px 0px 10px 90px;
+}
+.coffee {
+  margin: 0 auto;
+  display: flex;
+}
+.title {
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.title h1 {
+  font-family: regular;
+  font-size: 30px;
+  color: black;
+}
+.title .under-line {
+  font-size: 20px;
+  color: black;
+  width: 50px;
+}
+.four-offers {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.design-offer {
+  background-color: #f1f1f1;
+}
+.pranding-offer {
+  background-color: #9e9e9e;
+}
+.Consultation-offer {
+  background-color: #616161;
+}
+.promises-offer {
+  background-color: #000;
+}
+.design-offer .offer-title {
+  font-family: regular;
+  font-size: 20px;
+  padding: 20px 0px 5px 10px;
+}
+.pranding-offer .offer-title {
+  font-family: regular;
+  font-size: 20px;
+  padding: 20px 0px 5px 10px;
+}
+.Consultation-offer .offer-title {
+  font-family: regular;
+  font-size: 20px;
+  padding: 20px 0px 5px 10px;
+  color: white;
+}
+.promises-offer .offer-title {
+  font-family: regular;
+  font-size: 20px;
+  padding: 20px 0px 5px 10px;
+  color: white;
+}
+.Consultation-offer .offer-description {
+  color: white;
+}
+.promises-offer .offer-description {
+  color: white;
+}
+.offer-description {
+  padding: 10px 50px 10px 10px;
+}
+/* .plans-title {
+  text-align: center;
+  padding-top: 30px;
+}
+.title-of-plans {
+  font-family: regular;
+  font-size: 25px;
+}
+.plans-description {
+  font-family: regular;
+  font-size: 15px;
+  padding-top: 15px;
+} */
+.who-we-are {
+  padding-top: 50px;
+}
+.members {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/* .jane {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+/* .jane {
+  border: solid 0.5px;
+} */
+.member-name {
+  font-family: medium;
+  font-size: 25px;
+  padding: 10px 0px 10px 20px;
+}
+.career {
+  font-family: regular;
+  font-size: 18px;
+  color: #dedede;
+  padding: 10px 0px 10px 20px;
+}
+.member-description {
+  font-family: regular;
+  font-size: 15px;
+  padding: 10px 80px 10px 20px;
+}
+.contact-btn {
+  margin: 10px;
+  font-family: regular;
+  font-size: 17px;
+  /* width: 100%; */
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  border: none;
+}
+form {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+}
+form .form-item {
+  display: block;
+  padding: 6px 0px;
+  width: 100%;
+  margin: 6px 0px;
+  /* border: #616161; */
+}
+form .form-item:focus {
+  outline: black solid 2px;
+}
+.form-item label {
+  font-family: regular;
+  font-size: 15px;
+}
+.submit-btn {
+  width: 100%;
+  font-family: regular;
+  font-size: 20px;
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #000;
+  border: none;
+}
+.submit-btn:hover {
+  background-color: #9e9e9e;
+}
+.footer {
+  background-color: f1f1f1;
+}
+.ules {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.basic {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.basic:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pricess {
+  padding-top: 50px;
+}
+.price-title {
+  font-family: medium;
+  font-size: 25px;
+  color: #fff;
+  background-color: #000;
+  padding: 28px 15px;
+}
+.price-title-pro {
+  font-family: medium;
+  font-size: 25px;
+  color: #fff;
+  background-color: #616161;
+  padding: 28px 15px;
+}
+.price-content {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.sign-btn-price-content {
+  border-bottom: none;
+}
+.sign-btn-price-content {
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+.sign-btn {
+  color: #fff;
+  background-color: #4caf50;
+  padding: 20px;
+  font-family: regular;
+  font-size: 15px;
+  border: none;
+  border-radius: 5%;
+}
+.sign-btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 50px;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+.footer-icon {
+  font-size: 30px;
+  text-align: center;
+}
+.footer-icon:hover {
+  color: #9e9e9e;
+}
